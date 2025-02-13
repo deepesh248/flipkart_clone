@@ -59,3 +59,16 @@
     cursor: default;
     padding-left: 0.8rem;
 }
+
+.searchList{
+    display: none;
+}
+
+.arrow{
+   width: 10px;
+   height: 10px;
+}
+
+.cursor{
+    cursor: pointer;
+}
