@@ -1,0 +1,33 @@
+
+.ul{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+}
+
+.ul li{
+    list-style: none;
+    padding: 16px 25px;
+}
+
+.ul li a,span{
+    height: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+
+.icon{
+    width: 10px;
+}
+
+.dropdown:hover .icon{
+    transform: rotate(-180deg);
+    transition: transform 0.3s;
+}
