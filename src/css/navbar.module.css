@@ -118,6 +118,7 @@
 .dropdowncontent{
     display: none;
     position: absolute;
+    background-color: white;
 }
 
 .dropdown:hover .dropdowncontent{
