@@ -35,18 +35,7 @@ function Category() {
             </span>
             <div className={style.dropdownContainer}>
             <ul className={style.dropdownUl}> 
-              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Bottom Wear <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
-              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Top Wear <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
-              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men Footwear <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
-              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Women Footwear <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
-              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Watches and Accessories <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
-              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Women Western <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
-              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Bags, Suitcases & Luggage <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
-              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Kids <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
-              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Essentials <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
-              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Winter <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
-              </ul>
-              <ul className={`${style.dropdownUl} ${style.dropdownSubUl} ${style.fashion}`}> 
+              <li className={style.dropdownList}><a className={`${style.dropdownCat} ${style.mbw}`} href="##">Men's Bottom Wear <img className={style.iconCat} src={arrow} alt="arrow"/><ul className={`${style.dropdownUl} ${style.dropdownSubUl}`}> 
               <li className={style.dropdownList}><a className={style.dropdownCat} href="##">More in Men's Top Wear </a></li>
               <li className={style.dropdownList}><a className={style.dropdownCat} href="##">All</a></li>
               <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's T-Shirts </a></li>
@@ -59,7 +48,30 @@ function Category() {
               <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Windcheaters </a></li>
               <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Suit</a></li>
               <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Fabrics</a></li>
-            </ul>
+            </ul></a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Top Wear <img className={style.iconCat} src={arrow} alt="arrow"/><ul className={`${style.dropdownUl} ${style.dropdownSubUl}`}> 
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">More in Men's Bottom Wear </a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">All</a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Jeans </a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Trousers </a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Trackpants </a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Shorts</a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Cargos </a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Threefourths </a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Pyjamas & Loungepants </a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Dhoti </a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men's Ethnic Pyjama</a></li>
+            </ul></a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Men Footwear <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Women Footwear <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Watches and Accessories <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Women Western <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Bags, Suitcases & Luggage <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Kids <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Essentials <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
+              <li className={style.dropdownList}><a className={style.dropdownCat} href="##">Winter <img className={style.iconCat} src={arrow} alt="arrow"/></a></li>
+              </ul>
+              
             </div>
           </li>
           <li className={`${style.dropdown} ${style.categoryList}`}>

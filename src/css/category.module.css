@@ -53,7 +53,7 @@
 .dropdownCat{
     color: black;
     text-decoration: none;
-    display: flex;
+    display: block;
     justify-content: space-between;
     width: 15rem;
     height: 1rem;
@@ -80,6 +80,8 @@
     height: 8px;
     transform: rotate(-90deg);
     display: none;
+    position: absolute;
+    right: 18px
 }
 
 .dropdownCat:hover .iconCat{
@@ -87,5 +89,12 @@
 }
 .dropdownSubUl{
     position: relative;
-    right: 15.1rem;
+    left: 15.5rem;
+    bottom: 2rem;
+    width: 16.6rem;
+    display: none;
+}
+
+.dropdownContainer > ul > li > a:hover > ul{
+    display: block;
 }
