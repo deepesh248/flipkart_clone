@@ -33,14 +33,20 @@
     transition: transform 0.3s;
 }
 
+.dropdown:hover .dropdownContainer{
+    display: block;
+}
+
 .dropdownContainer{
     position: absolute;
     display: flex;
     flex-direction: row;
+    display: none;
 }
 
 .dropdownUl{
     position: relative;
+    top: 1rem;
     right: 15rem;
     display: block;
     border-radius: 1rem;
@@ -51,7 +57,7 @@
 }
 
 .dropdownCat{
-    color: black;
+    color: rgb(53, 53, 53);
     text-decoration: none;
     display: block;
     justify-content: space-between;
@@ -88,13 +94,28 @@
     display: inline;
 }
 .dropdownSubUl{
-    position: relative;
-    left: 15.5rem;
-    bottom: 2rem;
+    position: absolute;
+    top: 0rem;
+    left: 16rem;
     width: 16.6rem;
     display: none;
+    background-color: white;
+    color: rgb(53, 53, 53);
 }
 
 .dropdownContainer > ul > li > a:hover > ul{
     display: block;
+}
+
+.dropdownSubUl > li > a:hover{
+    font-weight: 550;
+}
+
+.dropdownHeading{
+    font-weight: 550;
+    cursor: default;
+}
+
+.dropdownHeading:hover{
+    background-color: white;
 }
