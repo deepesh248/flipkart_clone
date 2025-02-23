@@ -79,6 +79,8 @@
     height: 1.8rem;
     padding-left: 0.4rem;
     font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+    z-index: 10;
+    background-color: white;
 }
 
 .loginsec{
@@ -105,7 +107,7 @@
    
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0 1px 4px 0 rgba(204, 203, 203, 0.2), 0 1px 6px 0 rgba(101, 99, 99, 0.19);
-    
+    z-index: 10;
 }
 
 .signuplink{
@@ -118,6 +120,9 @@
 .dropdowncontent{
     display: none;
     position: absolute;
+    z-index: 10;
+    height: 18rem;
+    width: 14rem;
     background-color: white;
 }
 
@@ -144,6 +149,8 @@
     text-decoration: none;
     color: black;
     font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+    z-index: 10;
+    background-color: white;
 }
 
 .cart{
@@ -178,4 +185,5 @@
 .helpdropdown{
     top: 4rem;
     right: 3rem;
+    height: 10.2rem;
 }

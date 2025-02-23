@@ -1,14 +1,14 @@
 import Navbar from "./components/Navbar";
 import Category from "./components/Category";
 import SlidingImage from "./components/SlidingImage";
-import Product from "./components/Product";
+import ProductContainer from "./components/ProductsContainer";
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Category />
       <SlidingImage />
-      <Product/>
+      <ProductContainer/>
     </div>
   );
 }
