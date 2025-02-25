@@ -2,7 +2,8 @@ import Navbar from "./components/Navbar";
 import Category from "./components/Category";
 import SlidingImage from "./components/SlidingImage";
 import ProductContainer from "./components/ProductsContainer";
-import ProductTwo from "./components/ProductTwo";
+import ProductContainerTwo from "./components/ProductContainerTwo";
+import ProductContainerFour from "./components/ProductContainerFour";
 function App() {
   return (
     <div className="App">
@@ -10,7 +11,8 @@ function App() {
       <Category />
       <SlidingImage />
       <ProductContainer />
-      <ProductTwo/>
+      <ProductContainerTwo />
+      <ProductContainerFour/>
     </div>
   );
 }

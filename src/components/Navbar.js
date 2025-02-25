@@ -43,7 +43,7 @@ function Navbar() {
     "Advertise",
     "Download App",
   ]);
-  const helpIcons = [notification, helpcenter, adverise,download]
+  const helpIcons = [notification, helpcenter, adverise, download];
   return (
     <>
       <div className={`${StyleNav.nav} ${StyleNav.cursor}`}>
@@ -95,7 +95,6 @@ function Navbar() {
           {/* login */}
           <div
             className={`${StyleNav.align} ${StyleNav.cursor} ${StyleNav.login}`}
-            
           >
             <img className={StyleNav.icon} src={profile} alt="" />
             Login
@@ -106,10 +105,16 @@ function Navbar() {
             />
           </div>
           {/* login dropdown */}
-          <div className={`${StyleNav.border} ${StyleNav.dropdowncontent}`} id="loginList">
+          <div
+            className={`${StyleNav.border} ${StyleNav.dropdowncontent}`}
+            id="loginList"
+          >
             <div className={`${StyleNav.alignV} `} id="insideLoginList">
               <p className={StyleNav.signup}>
-                New customer? &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<a className={StyleNav.signuplink} href="##">Sign Up</a>
+                New customer? &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                <a className={StyleNav.signuplink} href="##">
+                  Sign Up
+                </a>
               </p>
               {loginDropDown.map((list, index) => (
                 <a
@@ -129,14 +134,29 @@ function Navbar() {
         </div>
 
         {/* cart section */}
-        <div className={`${StyleNav.align} ${StyleNav.cart}`}><a className={`${StyleNav.link} ${StyleNav.align}`} href="##"><img className={StyleNav.icon} src={cart} alt="cart" />Cart</a></div>
-     
+        <div className={`${StyleNav.align} ${StyleNav.cart}`}>
+          <a className={`${StyleNav.link} ${StyleNav.align}`} href="##">
+            <img className={StyleNav.icon} src={cart} alt="cart" />
+            Cart
+          </a>
+        </div>
+
         {/* seller section */}
-        <div className={`${StyleNav.align} ${StyleNav.store}`}><a className={`${StyleNav.link} ${StyleNav.align}`} href="##"><img className={StyleNav.icon} src={store} alt="cart" />Become a Seller</a></div>
+        <div className={`${StyleNav.align} ${StyleNav.store}`}>
+          <a className={`${StyleNav.link} ${StyleNav.align}`} href="##">
+            <img className={StyleNav.icon} src={store} alt="cart" />
+            Become a Seller
+          </a>
+        </div>
 
         {/* help section */}
-        <div className={`${StyleNav.align} ${StyleNav.helpLink} ${StyleNav.alignV} ${StyleNav.dropdown}`}><img src={dots} className={`${StyleNav.helpDot} `} alt="help links" />
-        <div className={`${StyleNav.border} ${StyleNav.dropdowncontent} ${StyleNav.helpdropdown}`}>
+        <div
+          className={`${StyleNav.align} ${StyleNav.helpLink} ${StyleNav.alignV} ${StyleNav.dropdown}`}
+        >
+          <img src={dots} className={`${StyleNav.helpDot} `} alt="help links" />
+          <div
+            className={`${StyleNav.border} ${StyleNav.dropdowncontent} ${StyleNav.helpdropdown}`}
+          >
             <div className={`${StyleNav.alignV} `}>
               {help.map((list, index) => (
                 <a
@@ -155,7 +175,6 @@ function Navbar() {
           </div>
         </div>
       </div>
-      
     </>
   );
 }
