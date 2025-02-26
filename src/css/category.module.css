@@ -1,7 +1,7 @@
 .ul{
-    width: 98%;
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 
 .categoryList{

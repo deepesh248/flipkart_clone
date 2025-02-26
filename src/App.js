@@ -4,6 +4,7 @@ import SlidingImage from "./components/SlidingImage";
 import ProductContainer from "./components/ProductsContainer";
 import ProductContainerTwo from "./components/ProductContainerTwo";
 import ProductContainerFour from "./components/ProductContainerFour";
+import ProductContainerFive from "./components/ProductContainerFive";
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,8 @@ function App() {
       <SlidingImage />
       <ProductContainer />
       <ProductContainerTwo />
-      <ProductContainerFour/>
+      <ProductContainerFour />
+      <ProductContainerFive/>
     </div>
   );
 }
