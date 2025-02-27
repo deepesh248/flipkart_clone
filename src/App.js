@@ -5,6 +5,8 @@ import ProductContainer from "./components/ProductsContainer";
 import ProductContainerTwo from "./components/ProductContainerTwo";
 import ProductContainerFour from "./components/ProductContainerFour";
 import ProductContainerFive from "./components/ProductContainerFive";
+import TopStories from "./components/TopStories";
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +16,8 @@ function App() {
       <ProductContainer />
       <ProductContainerTwo />
       <ProductContainerFour />
-      <ProductContainerFive/>
+      <ProductContainerFive />
+      <TopStories/>
     </div>
   );
 }

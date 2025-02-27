@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    padding: 1rem;
+    background-color: #f5f5f5;
+
+}
+
+.container > h1{
+    color: #5a5f6e;
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+    font-size: 1rem;
+    padding-top: 3rem;
+    padding-left: 0.4rem;
+}
+
+.container > div {
+    width: 97%;
+    padding: 0.5rem;
+    color: #5a5f6e;
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+.container > div > a{
+    display: inline-block;
+    padding: 0.1rem 0;
+    font-size: 0.8rem;
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+    text-decoration: none;
+    color: #5a5f6e;
+}
+
+.container > .info{
+    width: 97%;
+    padding-right: 1rem;
+    color: #969292;
+    line-height: 1rem;
+}
+
+.info > h1{
+    font-size: 1rem;
+    color: #7f8083;
+    padding-top: 1rem;
+}
