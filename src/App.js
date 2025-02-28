@@ -6,6 +6,7 @@ import ProductContainerTwo from "./components/ProductContainerTwo";
 import ProductContainerFour from "./components/ProductContainerFour";
 import ProductContainerFive from "./components/ProductContainerFive";
 import TopStories from "./components/TopStories";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <ProductContainerTwo />
       <ProductContainerFour />
       <ProductContainerFive />
-      <TopStories/>
+      <TopStories />
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,100 @@
+.container{
+    padding: 2rem 3rem;
+    padding-bottom: 1rem;
+    background-color: #212121;
+}
+
+.upper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.upper > div{
+   display: flex;
+   flex-direction: column;
+   width: 15rem;
+}
+
+.upper > div > h2{
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    color: rgb(108, 106, 106);
+    padding:  0 1rem;
+}
+
+.upper > div > a, .upper > div > p{
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.1rem 1rem;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    color: white;
+}
+
+.upper > div > p{
+    font-weight: 400;
+}
+
+.upper > div > a:hover{
+    text-decoration: underline;
+}
+
+.social{
+    width: 100%;
+    padding:  0 1rem;
+}
+
+.social > h2{
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    color: rgb(108, 106, 106);
+}
+
+.social > div > a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+.upper > .line{
+    width: 1px;
+    background-color: rgb(126, 120, 120);
+    margin: 0 2rem;
+}
+
+.lower{
+    padding-top: 2rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.content > a, .content > p{
+    text-decoration: none;
+    font-size: 0.7rem;
+    padding: 0.1rem 0;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.content > a > .icon{
+    color: rgb(223, 196, 45);
+    padding: 0 0.7rem;
+}
+
+.bline{
+    width: 120%;
+    height: 1px;
+    margin-left: -5rem;
+    background-color: rgb(126, 120, 120);
+}
