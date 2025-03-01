@@ -1,7 +1,6 @@
 import logo from "../resource/logo/fkheaderlogo_exploreplus-44005d.svg";
 import search from "../resource/icon/magnifying-glass.png";
 import StyleNav from "../css/navbar.module.css";
-import profile from "../resource/icon/profile-52e0dc.svg";
 import arrow from "../resource/icon/down-arrow.png";
 import myProfile from "../resource/icon/profile-52e0dc(1).svg";
 import fkplus from "../resource/icon/fkplus-4ff29a.svg";
@@ -16,6 +15,9 @@ import adverise from "../resource/icon/advertise-298691.svg";
 import notification from "../resource/icon/notificationPreferences-cfffaf.svg";
 import download from "../resource/icon/downloadApp-2ea657.svg";
 import helpcenter from "../resource/icon/helpcenter-7d90c0.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser} from "@fortawesome/free-regular-svg-icons";
+import {faChevronDown} from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 
 function Navbar() {
@@ -46,6 +48,7 @@ function Navbar() {
   const helpIcons = [notification, helpcenter, adverise, download];
   return (
     <>
+      <nav className={StyleNav.navbar}>
       <div className={`${StyleNav.nav} ${StyleNav.cursor}`}>
         {/* Flipkart logo */}
         <a href="##">
@@ -96,13 +99,9 @@ function Navbar() {
           <div
             className={`${StyleNav.align} ${StyleNav.cursor} ${StyleNav.login}`}
           >
-            <img className={StyleNav.icon} src={profile} alt="" />
-            Login
-            <img
-              className={`${StyleNav.icon} ${StyleNav.arrow} ${arrow}`}
-              src={arrow}
-              alt=""
-            />
+            <FontAwesomeIcon className={StyleNav.ficon} icon={faUser} />
+              Login
+              <FontAwesomeIcon className={`${StyleNav.icon} ${StyleNav.arrow} ${arrow}`} icon={faChevronDown} />
           </div>
           {/* login dropdown */}
           <div
@@ -175,6 +174,7 @@ function Navbar() {
           </div>
         </div>
       </div>
+      </nav>
     </>
   );
 }
