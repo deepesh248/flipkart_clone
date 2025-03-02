@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/flipkart_clone/static/css/main.173f1b9e.css",
+    "main.js": "/flipkart_clone/static/js/main.d6856229.js",
+    "static/media/smartphone.png": "/flipkart_clone/static/media/smartphone.eed0da06877132efedd3.png",
+    "static/media/payment-method-c454fb.svg": "/flipkart_clone/static/media/payment-method-c454fb.69e7ec34d1302e6b58b2cb1abe6b2f9c.svg",
+    "static/media/fkheaderlogo_exploreplus-44005d.svg": "/flipkart_clone/static/media/fkheaderlogo_exploreplus-44005d.11f9e2f7d0d3208852b0033b9714baa7.svg",
+    "static/media/webp": "/flipkart_clone/static/media/373914b13f0b4dfb.2fdd0d1cf22cdb191890.webp",
+    "static/media/fkplus-4ff29a.svg": "/flipkart_clone/static/media/fkplus-4ff29a.f1a0461d0aba3b0451068fa1eb3a5fc5.svg",
+    "static/media/downloadApp-2ea657.svg": "/flipkart_clone/static/media/downloadApp-2ea657.7569a8715bc75cdb0a35fb37a0377086.svg",
+    "static/media/Store-9eeae2.svg": "/flipkart_clone/static/media/Store-9eeae2.134a491f2f7fd46ea65e723e016ef274.svg",
+    "static/media/rewards-fbd212.svg": "/flipkart_clone/static/media/rewards-fbd212.a8acd94c81c7539c6a077a1492708823.svg",
+    "static/media/giftCard-bd87e1.svg": "/flipkart_clone/static/media/giftCard-bd87e1.62fa26c6a8a27374d09c5f827317bebe.svg",
+    "static/media/header_3verticalDots-ea7819.svg": "/flipkart_clone/static/media/header_3verticalDots-ea7819.c2bef0e5341e909d411e2fb28ffb2660.svg",
+    "static/media/helpcenter-7d90c0.svg": "/flipkart_clone/static/media/helpcenter-7d90c0.f09fd828b8d72604e6ddfd32764fe61c.svg",
+    "static/media/advertise-298691.svg": "/flipkart_clone/static/media/advertise-298691.88cb5a5ac39f531563eb1c1787f2c56d.svg",
+    "static/media/orders-bfe8c4.svg": "/flipkart_clone/static/media/orders-bfe8c4.e444ac96e9a6453897c4456d0b40a2f8.svg",
+    "static/media/notificationPreferences-cfffaf.svg": "/flipkart_clone/static/media/notificationPreferences-cfffaf.3439a88946c3768784accfed42fe515c.svg",
+    "static/media/header_cart-eed150.svg": "/flipkart_clone/static/media/header_cart-eed150.43eb4eced69a899c584a85db6662c439.svg",
+    "static/media/profile-52e0dc(1).svg": "/flipkart_clone/static/media/profile-52e0dc(1).6bae67c9807bb6e0a1514dce7041421c.svg",
+    "index.html": "/flipkart_clone/index.html",
+    "static/media/wishlist.svg": "/flipkart_clone/static/media/wishlist.aa87a435ee0ce798dd1657159366698d.svg",
+    "main.173f1b9e.css.map": "/flipkart_clone/static/css/main.173f1b9e.css.map",
+    "main.d6856229.js.map": "/flipkart_clone/static/js/main.d6856229.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.173f1b9e.css",
+    "static/js/main.d6856229.js"
+  ]
+}
