@@ -203,3 +203,16 @@
     right: 3rem;
     height: 10.2rem;
 }
+
+@media (max-width:1420px) {
+    .text{
+        display: none;
+    }
+    .store{
+        width: auto;
+    }
+
+    .cart{
+        width: auto;
+    }
+}

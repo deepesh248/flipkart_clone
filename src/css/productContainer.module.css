@@ -36,3 +36,9 @@
   font-weight: 600;
   font-size: 1.4rem;
 }
+
+@media (max-width:1320px) {
+  .ads{
+    display: none;
+  }
+}

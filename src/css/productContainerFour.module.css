@@ -13,3 +13,9 @@
 .img > img{
     width: 89%;
 }
+
+@media (max-width:1470px) {
+    .img{
+        display: none;
+    }
+}

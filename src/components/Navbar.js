@@ -136,7 +136,7 @@ function Navbar() {
         <div className={`${StyleNav.align} ${StyleNav.cart}`}>
           <a className={`${StyleNav.link} ${StyleNav.align}`} href="##">
             <img className={StyleNav.icon} src={cart} alt="cart" />
-            Cart
+            <span className={StyleNav.text}>Cart</span>
           </a>
         </div>
 
@@ -144,7 +144,7 @@ function Navbar() {
         <div className={`${StyleNav.align} ${StyleNav.store}`}>
           <a className={`${StyleNav.link} ${StyleNav.align}`} href="##">
             <img className={StyleNav.icon} src={store} alt="cart" />
-            Become a Seller
+            <span className={StyleNav.text}>Become a Seller</span>
           </a>
         </div>
 

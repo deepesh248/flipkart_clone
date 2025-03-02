@@ -19,7 +19,7 @@ function ProductContainerFour() {
       <div className={style.container}>
         <ProductContainerThree products={products} title="Furniture Deals" />
         <div className={style.img}>
-          <img src={smartphone} alt="smartphone" />
+          <a href="##"><img src={smartphone} alt="smartphone" /></a>
         </div>
       </div>
     </>
